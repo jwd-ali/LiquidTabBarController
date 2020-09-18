@@ -1,0 +1,11 @@
+framework module LiquidTabBarController {
+  umbrella header "LiquidTabBarController.h"
+
+  export *
+  module * { export * }
+}
+
+module LiquidTabBarController.Swift {
+    header "LiquidTabBarController-Swift.h"
+    requires objc
+}
